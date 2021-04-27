@@ -1,0 +1,11 @@
+CODE
+COUNTRY
+DATE
+HDI : human_development_index
+TC : total_cases
+TD : total_deaths
+STI : stringency_index
+POP : population
+GDPCAP : gdp_per_capita
+
+https://github.com/owid/covid-19-data/tree/master/public/data
