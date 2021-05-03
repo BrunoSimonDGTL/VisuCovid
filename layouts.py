@@ -53,14 +53,12 @@ layout1 = html.Div([
         id='app-1-dropdown',
         options=[
             {'label': 'App 1 - {}'.format(i), 'value': i} for i in [
-                'NYC', 'MTL', 'LA'
-            ]
-        ]
+                'NYC', 'MTL', 'LA' ] ]
     ),
     html.Div(id='app-1-display-value'),
     dcc.Link('Go to App 2', href='/apps/app2'),
-    html.Div(id='app-1-display-value'),
-    dcc.Graph(figure = fig)
+    dcc.Graph(figure = fig),
+
 
 ])
 
@@ -70,9 +68,7 @@ layout2 = html.Div([
         id='app-2-dropdown',
         options=[
             {'label': 'App 2 - {}'.format(i), 'value': i} for i in [
-                'NYC', 'MTL', 'LA'
-            ]
-        ]
+                'NYC', 'MTL', 'LA' ] ]
     ),
     html.Div(id='app-2-display-value'),
     dcc.Link('Go to App 1', href='/apps/app1')
