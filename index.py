@@ -22,4 +22,5 @@ def display_page(pathname):
         return layout0
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    #app.run_server(debug=True, use_reloader=False)
+    app.run_server(debug=True)
