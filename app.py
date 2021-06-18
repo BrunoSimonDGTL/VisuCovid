@@ -8,5 +8,5 @@ import dash
 
 
 
-app = dash.Dash(__name__, suppress_callback_exceptions=False)
+app = dash.Dash(__name__, suppress_callback_exceptions=False, title ="Effet du Covid19 sur les infirmières")
 server = app.server
